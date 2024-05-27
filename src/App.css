@@ -36,12 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
 .ttttt{
-  width: 90vw;
   height: 100vh;
-  background-color: #ccc;
+  width: 100vw;
+  text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
 }

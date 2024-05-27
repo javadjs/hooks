@@ -12,7 +12,19 @@ class Loli extends React.Component{
 render(){
     return(
         <div className='eeee'>
-        <span onClick={this.props.x}>click</span>
+        <span onClick={this.props.x}   style={{
+        background:this.props.iscolor ? "white" : "black",
+        color : this.props.iscolor ? "black" : "white"
+
+        }}  >click</span>
+        <span onClick={this.props.changecolor} 
+        style={{
+        background:this.props.iscolor ? "white" : "black",
+        color : this.props.iscolor ? "black" : "white"
+
+        }}
+        
+        >change background color</span>
         </div>
         );
 } 
