@@ -50,3 +50,22 @@ const changecolor = ()=>{
 }
 
 export default App;
+
+
+
+
+
+
+
+// آوردن پروژه از روی گیت هاب
+
+// 1-انتخاب کامیت مورد نظر 
+// 2- کلیک روی کد سبز رنگ و کپی کردن لینک
+// 3- create new folder for vs code
+// 4- open vs code and open new terminal
+// 5- type => git clone link (link == 2)
+// 6- delete folder (3) (فقط فولدری که از گیت گرفتیم بمونه یه فولدر بالاییش رو حذف میکنیم)
+// 7- داخل پوشه گیت ایگنور نوشته شده چه چیزایی نیاورده باخودش با ان پی ام اینستال اونارو نصب میکنیم
+// type => npm install
+// 8- type => npm start
+
