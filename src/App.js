@@ -11,7 +11,7 @@ import { TestContext } from './TestContext.js';
 const App = ()=>{ 
 const [title , setTitl] = useState("title");
 const [iscolor , setiscolor] = useState(false);
-const [timeArr , settimeArr] = useState(["44:55:66"]);
+const [timeArr , settimeArr] = useState([]);
 
 
 
@@ -27,14 +27,15 @@ const changecolor = ()=>{
 
   return(
     <TestContext.Provider value={{
-      timeArr: timeArr,
-      settimeArr : settimeArr
+       timeArr,
+      settimeArr
     }} >
 
    
 <div className='ttttt'  style={{background:iscolor ? "black" : "white"}}>
 <div className='showtime' style={{color:iscolor ? "white" : "black"}}>
 <Timer  iscolor={iscolor} changecolor={changecolor} />
+<TimeList  />
 </div>
   <h1 style={{color:iscolor ? "white" : "black"}}>
   {title}

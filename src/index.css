@@ -91,6 +91,9 @@ line-height: 20px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 90px;
+  
+  padding: 5px;
 }
 .boxtimer{
   display: flex;
